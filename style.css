@@ -1,0 +1,48 @@
+
+.section{
+  max-width: 1920px;
+  display: flex;
+  justify-content: center;
+}
+
+.home_bg{
+  /* background-image: url(images/bg.jpg); */
+  background-image: url(https://picsum.photos/id/1002/1980);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  margin-top: -40px;
+}
+.container {
+  width: 100%;
+  height: auto;
+  margin: 40px auto;
+  background:rgba(0,0,0,0.3);
+  padding-top: 50px;
+}
+
+.h3, h3 {
+  color: azure;
+}
+
+label{
+ color: white;
+}
+
+.form-check-inline{
+  margin: 0.75rem;
+}
+
+.form-group {
+  padding-left: 0.5rem;
+  padding-bottom: 2rem;
+}
+
+.nameTitle ,
+.intro {
+  word-wrap: break-word;
+}
+
+
